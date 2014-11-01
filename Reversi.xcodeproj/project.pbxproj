@@ -19,6 +19,13 @@
 		8B8645E319BA255D0063027F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8645CB19BA255D0063027F /* UIKit.framework */; };
 		8B8645EB19BA255D0063027F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B8645E919BA255D0063027F /* InfoPlist.strings */; };
 		8B8645ED19BA255D0063027F /* ReversiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8645EC19BA255D0063027F /* ReversiTests.m */; };
+		8B8645FE19BA26F20063027F /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8645FD19BA26F20063027F /* main.storyboard */; };
+		8B86460119BA2A660063027F /* ReversiModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B86460019BA2A660063027F /* ReversiModelViewController.m */; };
+		8B86460419BA310A0063027F /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B86460319BA310A0063027F /* MainController.m */; };
+		8B87E86819D6C52700B22F2F /* GameViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B87E86719D6C52700B22F2F /* GameViewControler.m */; };
+		8B89441319D7486D007CCFD0 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89441219D7486D007CCFD0 /* Game.m */; };
+		8B89441619D8812D007CCFD0 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89441519D8812D007CCFD0 /* Cell.m */; };
+		8B89441919D9E968007CCFD0 /* Field.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B89441819D9E968007CCFD0 /* Field.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,19 @@
 		8B8645E819BA255D0063027F /* ReversiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReversiTests-Info.plist"; sourceTree = "<group>"; };
 		8B8645EA19BA255D0063027F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B8645EC19BA255D0063027F /* ReversiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReversiTests.m; sourceTree = "<group>"; };
+		8B8645FD19BA26F20063027F /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		8B8645FF19BA2A660063027F /* ReversiModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReversiModelViewController.h; sourceTree = "<group>"; };
+		8B86460019BA2A660063027F /* ReversiModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReversiModelViewController.m; sourceTree = "<group>"; };
+		8B86460219BA310A0063027F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8B86460319BA310A0063027F /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		8B87E86619D6C52700B22F2F /* GameViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewControler.h; sourceTree = "<group>"; };
+		8B87E86719D6C52700B22F2F /* GameViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewControler.m; sourceTree = "<group>"; };
+		8B89441119D7486D007CCFD0 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		8B89441219D7486D007CCFD0 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		8B89441419D8812D007CCFD0 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		8B89441519D8812D007CCFD0 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		8B89441719D9E968007CCFD0 /* cellStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellStatus.h; sourceTree = "<group>"; };
+		8B89441819D9E968007CCFD0 /* Field.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Field.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +97,9 @@
 		8B8645BB19BA255D0063027F = {
 			isa = PBXGroup;
 			children = (
+				8B8645F819BA257F0063027F /* Controller */,
+				8B8645F719BA25780063027F /* View */,
+				8B8645F619BA256F0063027F /* Model */,
 				8B8645CD19BA255D0063027F /* Reversi */,
 				8B8645E619BA255D0063027F /* ReversiTests */,
 				8B8645C619BA255D0063027F /* Frameworks */,
@@ -142,6 +165,40 @@
 				8B8645E919BA255D0063027F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B8645F619BA256F0063027F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B89441119D7486D007CCFD0 /* Game.h */,
+				8B89441219D7486D007CCFD0 /* Game.m */,
+				8B89441419D8812D007CCFD0 /* Cell.h */,
+				8B89441519D8812D007CCFD0 /* Cell.m */,
+				8B89441719D9E968007CCFD0 /* cellStatus.h */,
+				8B89441819D9E968007CCFD0 /* Field.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8B8645F719BA25780063027F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B8645FD19BA26F20063027F /* main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8B8645F819BA257F0063027F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B8645FF19BA2A660063027F /* ReversiModelViewController.h */,
+				8B86460019BA2A660063027F /* ReversiModelViewController.m */,
+				8B86460219BA310A0063027F /* MainViewController.h */,
+				8B86460319BA310A0063027F /* MainController.m */,
+				8B87E86619D6C52700B22F2F /* GameViewControler.h */,
+				8B87E86719D6C52700B22F2F /* GameViewControler.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +278,7 @@
 			files = (
 				8B8645D219BA255D0063027F /* InfoPlist.strings in Resources */,
 				8B8645DA19BA255D0063027F /* Images.xcassets in Resources */,
+				8B8645FE19BA26F20063027F /* main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +299,12 @@
 			files = (
 				8B8645D819BA255D0063027F /* AppDelegate.m in Sources */,
 				8B8645D419BA255D0063027F /* main.m in Sources */,
+				8B86460419BA310A0063027F /* MainController.m in Sources */,
+				8B89441319D7486D007CCFD0 /* Game.m in Sources */,
+				8B87E86819D6C52700B22F2F /* GameViewControler.m in Sources */,
+				8B86460119BA2A660063027F /* ReversiModelViewController.m in Sources */,
+				8B89441919D9E968007CCFD0 /* Field.m in Sources */,
+				8B89441619D8812D007CCFD0 /* Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +503,7 @@
 				8B8645F219BA255D0063027F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B8645F319BA255D0063027F /* Build configuration list for PBXNativeTarget "ReversiTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +512,7 @@
 				8B8645F519BA255D0063027F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
